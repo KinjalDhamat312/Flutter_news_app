@@ -19,6 +19,4 @@ You can download the APK file of the application from the following link:
 [Download APK](https://drive.google.com/file/d/1ckzcL3JTcn88OIY8TCyAYJz5jzorbOkD/view?usp=sharing)
 
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
