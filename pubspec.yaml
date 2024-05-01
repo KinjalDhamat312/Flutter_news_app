@@ -1,0 +1,80 @@
+name: flutter_demo
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Navigation
+  go_router: ^13.2.0
+
+  #State Management
+  flutter_bloc: ^8.1.4
+
+  # Networking
+  retrofit: ^4.1.0
+  json_annotation: ^4.8.1
+  dio:
+
+  # Localization
+  easy_localization: ^3.0.5
+
+  # Dependency injection
+  injectable:
+  get_it: ^7.6.7
+
+  #UI
+  flutter_screenutil: ^5.9.0
+  cached_network_image: ^3.3.1
+
+  # Helper
+  logger: ^2.2.0
+  fluttertoast: ^8.2.4
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  permission_handler:
+  connectivity_plus: ^6.0.1
+  freezed: ^2.4.7
+  freezed_annotation: ^2.4.1
+
+  # Local storage
+  shared_preferences: ^2.2.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  mockito:
+  mocktail: ^1.0.1
+  bloc_test: ^9.1.6
+
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+  flutter_gen_runner:
+  json_serializable: ^6.7.1
+  retrofit_generator:
+  injectable_generator:
+
+
+flutter_gen:
+  output: lib/generated/assets/
+  line_length: 80
+  integrations:
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/translations/
+    - assets/sample/
+
